@@ -18,14 +18,14 @@ Example Playbook
 
 Here's an example playbook that demonstrates how to use this role:
 
-
+```
 ---
 - name: Configure DNS servers
   hosts: all
   become: yes
   roles:
     - ELK_install
-
+```
 
 License
 
