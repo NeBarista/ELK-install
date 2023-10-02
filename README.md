@@ -19,13 +19,12 @@ Example Playbook
 Here's an example playbook that demonstrates how to use this role:
 
 
-
-- name: Download ELK Stack
-  hosts: your_target_hosts
-  become: yes  # If privilege escalation is required (sudo)
+---
+- name: Configure DNS servers
+  hosts: all
+  become: yes
   roles:
-    - name: Download ELK Stack
-      role: elk-stack-download
+    - ELK_install
 
 In this example, replace your_target_hosts with the appropriate host group or host(s) where you want to download and set up the ELK stack. You can further customize this playbook by specifying the version of ELK stack components or other configuration settings.
 License
