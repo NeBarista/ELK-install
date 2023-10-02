@@ -14,6 +14,8 @@ This role does not have specific variables to configure. It uses predefined sett
 Dependencies
 
 This role does not have any dependencies on other Ansible roles.
+
+
 Example Playbook
 
 Here's an example playbook that demonstrates how to use this role:
