@@ -26,7 +26,7 @@ Here's an example playbook that demonstrates how to use this role:
   roles:
     - ELK_install
 
-In this example, replace your_target_hosts with the appropriate host group or host(s) where you want to download and set up the ELK stack. You can further customize this playbook by specifying the version of ELK stack components or other configuration settings.
+
 License
 
 This Ansible role is licensed under the MIT License. Feel free to modify and distribute it as needed for your projects.
